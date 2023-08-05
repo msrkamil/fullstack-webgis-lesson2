@@ -1,0 +1,126 @@
+p,li{
+    color: green;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.belajar-css{
+    color: orange;  
+}
+
+li.belajar-css{
+    color: purple;
+}
+
+h1+p{
+    color: aqua;
+}
+
+.js-mapping{
+    font-family: 'Courier New';
+}
+
+.js-mapping:hover{
+    font-family: 'Courier New';
+    background-color: #d14212;
+}
+
+.open-source{
+    background-color: darkgreen;
+    color:white;
+}
+
+.propetiary{
+    background-color: orange;
+}
+
+a:link{
+    color: pink;
+}
+
+a:visited{
+    color: greenyellow;
+}
+
+a:hover{
+    color: brown;
+}
+
+#leaflet{
+    color: pink !important;
+    font-size: xx-large;
+}
+
+#openlayers{
+    font-size: larger;
+}
+#openlayers:hover{
+    background-color: #d1a112;
+}
+
+#arcgis-js{
+    font-size: smaller;
+}
+
+#google-maps{
+    font-size: xx-large;
+    /* font-size: : calc(100px - 5rem); */
+    margin-left: 10px;
+    border: thick double;
+    padding: 10px 50px 100px 5px;
+}
+
+.kotak{
+    margin: 10%;
+    width: 200px;
+    height: 200px;
+    background-color: orangered;
+    
+    transform: rotate(70deg);
+}
+
+@media(min-width: 400px){
+    .kotak{
+        margin: 10%;
+        width: 200px;
+        height: 200px;
+        background-color: skyblue;
+        transform: rotate(70deg);
+    }
+}
+
+/* body{
+    background-image: url(./geocourse.png);
+} */
+
+a[title]{
+    background-color: aquamarine;
+}
+
+a[title='Faiz']{
+    background-color: darkkhaki;
+}
+
+p::first-line{
+    background-color: blueviolet;
+}
+
+body > ul > li > ol > li[title='text']{
+    color: blueviolet
+}
+
+div > h1{
+    color: blue;
+}
+
+div > h1{
+    color: red;
+}
+
+.testing-hello-world{
+    background-color: aquamarine;
+}
+
+#computer{
+    color: black;
+}
